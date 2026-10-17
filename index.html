@@ -1,0 +1,43 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>📚 Library Management System</h1>
+        <p>Manage your books easily</p>
+    </header>
+
+    <main>
+        <section class="form-section">
+            <h2>Add a Book</h2>
+
+            <input type="text" id="bookTitle" placeholder="Book Title">
+            <input type="text" id="bookAuthor" placeholder="Author Name">
+
+            <button onclick="addBook()">Add Book</button>
+        </section>
+
+        <section class="library-section">
+            <h2>Available Books</h2>
+            <input type="text" id="search" placeholder="Search books..."
+                   oninput="displayBooks()">
+
+            <div id="bookList"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Library Management System | Created by Bhardwaj</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+```
